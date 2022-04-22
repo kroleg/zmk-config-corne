@@ -13,14 +13,14 @@
                 compatible = "zmk,keymap";
                 default_layer {
 // -----------------------------------------------------------------------------------------
-// |  |  Q  |  W  |  F  |  P  |  B  |   |  Y  |  U   |  I  |  O  |  &mo 4  |  |
-// |  |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  |
-// |  |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  |  |
+// |  |  Q  |  W  |  F  |  P  |  B  |   |  J  |  L   |  U  |  Y  |     |  |
+// |  |  A  |  R  |  S  |  T  |  G  |   |  M  |  N   |  E  |  I  |  O  |  |
+// |  |  Z  |  X  |  C  |  D  |  V  |   |  K  |  H   |  ,  |  .  |    |  |
 //                | TAB | SYM | ENT |   | SPC | NUM  |  |
                         bindings = <
-   &none    &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp I   &kp      &none
-   &none    &kp A &kp R &kp S &kp T &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &none
-   &none    &kp Z &kp X &kp C &kp D &kp V   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &none
+   &none    &kp Q &kp W &kp F &kp P &kp B   &kp J &kp L  &kp U     &kp Y   &kp    &none
+   &none    &kp A &kp R &kp S &kp T &kp G   &kp M &kp N  &kp E     &kp I   &kp O  &none
+   &none    &kp Z &kp X &kp C &kp D &kp V   &kp K &kp H  &kp COMMA &kp DOT &none  &none
                     &kp TAB &mo 2 &kp RET   &kp SPACE &mo 3 &none
                         >;
                 };
